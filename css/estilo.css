@@ -1,0 +1,196 @@
+﻿body{ margin:0;
+padding:0;
+}
+
+#cabecalho{
+	width:100%; 
+	height:100px;
+	background-color:#FF8000;
+	padding-top:20px;
+	box-sizing:border-box;
+	
+	
+}
+
+.menu{
+	width:100%;
+	height:50px;
+	overflow:hidden;
+	background-color:#4682a3;
+	padding-left:130px;
+}
+
+
+.menu ul{
+   margin: 0;
+   width:100%;
+   background-color:#4682a3;
+   list-style: none;
+   position:absolute;
+   
+}
+
+ .menu li{
+  float:left;
+  padding:15px;
+}
+
+ .menu li ul#sub-menu{
+	display:none;
+	z-index:4;
+	width:200px;
+	
+}
+.menu ul#sub-menu li{
+	float:none;
+	
+}
+
+
+
+.menu ul li:hover ul#sub-menu{
+	display:block;
+}
+
+ 
+.menu ul li a {
+    padding:4px 16px;
+	 color:#fff;
+	 text-decoration: none;
+	 font-family:sans-serif;
+}
+
+.menu ul li a:hover {
+	
+    color:#FAFAFA;
+	background-color:#D8D8D8;
+}
+
+
+
+#conteudo{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+
+#conteudo h1{
+	font-size:30pt;
+	text-align:center;
+	font-family:arial black;
+	color:#ccc;
+}   
+
+#conteudo div#box-oferta{
+	width:100%;
+	height:520px;
+	padding-left:35px;
+	color:#FFA500;
+	background-color:#000;
+}
+
+#conteudo div#oferta{
+	width:300px;
+	height:450px;
+	background-color:rgba(255,255,255,0.2);
+	margin:10px;
+	float:left;
+	color:#FFA500;
+	
+}
+
+div#menu-lateral{
+	width:15%;
+	height:auto;
+	border-right:1px solid #666;
+	float:left;
+}
+
+div#conteudo-produtos{
+	width:84.7%;
+	height:auto;
+	border:1px solid #666;
+	float:left;
+
+	
+}
+
+div#box-produtos{
+	width:15%;
+	height:300px;
+	float:left;
+	margin:10px;
+	line-height:3px;
+	text-align:center;
+}
+
+div#box-produtos:hover{
+	background-color:#eee;
+	}
+
+div#produtos{
+width:100%;
+height:auto;
+border:1px solid #555;
+overflow:auto;
+	
+}
+
+div#imagem-produto{
+	width:33%;
+	height:450px;
+	float:left;
+	
+}
+
+div#descrição{
+	width:51%;
+	height:700px;
+	float:left;
+	position:relative;
+}
+
+h1#titulo-descricao{
+	color:#000;
+	font-size:24pt;
+	line-height:35px;
+	
+}
+
+div#box-compra{
+	width:100%;
+	height:450px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+
+	
+}
+
+
+#botao-compra{
+	color:#000;
+	font-size:24pt;
+	font-family:arial black;
+	width:200px;
+	height:60px;
+	background-color:#0f0;
+	border:0px;
+		
+}
+#para-compra{
+	color:black;
+	font-size:20pt;
+	font-family:arial black;
+	
+}
+
+#rodape{
+	width:100%;
+	height:100px;
+	background-color:#FFF;
+}
+
+
+
